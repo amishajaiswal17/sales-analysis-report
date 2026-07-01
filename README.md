@@ -51,6 +51,10 @@ Key Insights
 7. Time Intelligence: A built-in month/period slicer (Jan–Jun and beyond) allows the dashboard to be filtered dynamically for period-specific analysis.
 
 
+   <img width="1155" height="655" alt="Screenshot of pizza" src="https://github.com/user-attachments/assets/9b51697b-8f89-4913-8486-b46f737b7e1a" />
+
+
+
 
 
 
