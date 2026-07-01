@@ -1,0 +1,11 @@
+## SQL-Based Validation Layer ##
+To make this project more than "just a dashboard," every KPI and breakdown was independently verified using MySQL — querying the raw pizza_sales table directly and comparing results line-by-line against the Excel dashboard. This mirrors how analytics work is validated in a real analytics/BI team, where dashboard numbers are expected to reconcile with the source-of-truth database.
+
+Validation approach:
+
+
+Loaded the raw transactional dataset into a MySQL database (pizza_sales table).
+Wrote SQL queries to independently recompute each KPI and chart value shown on the Excel dashboard.
+Compared each SQL output against the corresponding Excel/pivot table value.
+Confirmed a 100% match across all KPIs — revenue, orders, category/size splits, and best/worst sellers.
+
